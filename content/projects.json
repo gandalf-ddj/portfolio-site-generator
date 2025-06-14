@@ -1,0 +1,17 @@
+[
+  {
+    "title": "File Organizer",
+    "description": "A Python script that organizes files into folders based on their extensions. Ideal for cleaning up messy download folders.",
+    "link": "https://github.com/gandalf-ddj/file-organizer"
+  },
+  {
+    "title": "Web Scraper CSV",
+    "description": "Scrapes quotes and authors from a demo website and exports them to a CSV file. Built with `requests`, `BeautifulSoup`, and file handling.",
+    "link": "https://github.com/gandalf-ddj/web_scraper_csv"
+  },
+  {
+    "title": "Inventory Tracker",
+    "description": "A terminal-based inventory system that tracks product name, quantity, and price. Uses CSV for persistence and includes update/delete functionality.",
+    "link": "https://github.com/gandalf-ddj/inventory-tracker"
+  }
+]
