@@ -1,19 +1,16 @@
-![My Profile Picture](static/profile.jpg)
+# Hey, I’m Daniel Jarvis 🚀
 
-# Hi, I'm Daniel 👨‍💻
+I'm a Python developer with a passion for building powerful, real-world tools that make workflows faster, data cleaner, and projects more organized. I specialize in crafting practical terminal apps, automation scripts, and custom site generators from scratch — all with clean design, sharp logic, and zero fluff.
 
-I'm a junior Python developer building real-world, terminal-based and script-powered applications with a focus on simplicity, clarity, and utility. I love creating tools that automate tedious tasks, clean up data, and generate useful outputs like HTML, CSV, and PDFs.
+In just a few months, I’ve:
+- Built and deployed a **multi-page portfolio site generator** (you’re looking at it!)
+- Created a **weather app CLI** that fetches real-time forecasts
+- Engineered a **web scraper** that exports structured data to CSV
+- Developed tools that **sort files**, **track expenses**, and **manage inventory** — all via terminal
 
-So far, I’ve built:
+Every project you see here was built to solve a problem. And every line of code I write is focused on simplicity, clarity, and long-term usefulness.
 
-- A **file organizer** that sorts files by extension
-- A **web scraper** that pulls quote data into a CSV
-- An **inventory tracker** with add/edit/delete functionality and persistent storage
-- A **portfolio site generator** (you're looking at it!) that converts Markdown and JSON into a clean, styled HTML website
+🧰 I build it. I polish it. I ship it.  
+💡 Let’s build something that works.
 
-I'm currently diving deeper into:
-- Jinja2 templating
-- Project packaging
-- Client-focused development workflows
-
-You can browse my projects using the links above or check out my full code on [GitHub](https://github.com/gandalf-ddj).
+[Check out my GitHub →](https://github.com/gandalf-ddj)

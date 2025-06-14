@@ -1,17 +1,32 @@
 [
   {
-    "title": "File Organizer",
-    "description": "A Python script that organizes files into folders based on their extensions. Ideal for cleaning up messy download folders.",
-    "link": "https://github.com/gandalf-ddj/file-organizer"
+    "title": "Portfolio Site Generator",
+    "description": "Generates a multi-page portfolio from Markdown and JSON using Jinja2 templates. Includes theme selector, dark mode, and ZIP export.",
+    "link": "https://github.com/gandalf-ddj/portfolio-site-generator"
+  },
+  {
+    "title": "Weather CLI App",
+    "description": "Terminal-based Python app that fetches real-time weather data using an API and displays current conditions and forecasts.",
+    "link": "https://github.com/gandalf-ddj/weather-cli-app"
   },
   {
     "title": "Web Scraper CSV",
-    "description": "Scrapes quotes and authors from a demo website and exports them to a CSV file. Built with `requests`, `BeautifulSoup`, and file handling.",
+    "description": "Scrapes quotes and authors from a website and exports them to CSV using requests and BeautifulSoup.",
     "link": "https://github.com/gandalf-ddj/web_scraper_csv"
   },
   {
+    "title": "File Organizer",
+    "description": "Sorts files into folders based on extension. Cleans up download folders or directories with mixed content.",
+    "link": "https://github.com/gandalf-ddj/file-organizer"
+  },
+  {
     "title": "Inventory Tracker",
-    "description": "A terminal-based inventory system that tracks product name, quantity, and price. Uses CSV for persistence and includes update/delete functionality.",
+    "description": "Terminal app that tracks products, quantities, and prices. Includes CSV saving, editing, and deletion.",
     "link": "https://github.com/gandalf-ddj/inventory-tracker"
+  },
+  {
+    "title": "Python Expense Tracker",
+    "description": "Lightweight terminal-based tool to log expenses and calculate totals. Simple file-based persistence.",
+    "link": "https://github.com/gandalf-ddj/python-expense-tracker"
   }
 ]
