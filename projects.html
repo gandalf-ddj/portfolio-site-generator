@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  <div class="container">
+    <select id="themeSelector" onchange="setTheme(this.value)">
+      <option value="">Default</option>
+      <option value="dark">Dark</option>
+      <option value="solarized">Solarized</option>
+    </select>
+    <h1>My Projects</h1>
+    <div class="content">
+      
+        <ul>
+          
+            <li>
+              <h2>Portfolio Site Generator</h2>
+              <p>Generates a multi-page portfolio from Markdown and JSON using Jinja2 templates. Includes theme selector, dark mode, and ZIP export.</p>
+              <a href="https://github.com/gandalf-ddj/portfolio-site-generator">View Project</a>
+            </li>
+          
+            <li>
+              <h2>Weather CLI App</h2>
+              <p>Terminal-based Python app that fetches real-time weather data using an API and displays current conditions and forecasts.</p>
+              <a href="https://github.com/gandalf-ddj/weather-cli-app">View Project</a>
+            </li>
+          
+            <li>
+              <h2>Web Scraper CSV</h2>
+              <p>Scrapes quotes and authors from a website and exports them to CSV using requests and BeautifulSoup.</p>
+              <a href="https://github.com/gandalf-ddj/web_scraper_csv">View Project</a>
+            </li>
+          
+            <li>
+              <h2>File Organizer</h2>
+              <p>Sorts files into folders based on extension. Cleans up download folders or directories with mixed content.</p>
+              <a href="https://github.com/gandalf-ddj/file-organizer">View Project</a>
+            </li>
+          
+            <li>
+              <h2>Inventory Tracker</h2>
+              <p>Terminal app that tracks products, quantities, and prices. Includes CSV saving, editing, and deletion.</p>
+              <a href="https://github.com/gandalf-ddj/inventory-tracker">View Project</a>
+            </li>
+          
+            <li>
+              <h2>Python Expense Tracker</h2>
+              <p>Lightweight terminal-based tool to log expenses and calculate totals. Simple file-based persistence.</p>
+              <a href="https://github.com/gandalf-ddj/python-expense-tracker">View Project</a>
+            </li>
+          
+        </ul>
+      
+    </div>
+  </div>
+<script>
+  const saved = localStorage.getItem("theme");
+  if (saved) document.body.classList.add(saved);
+
+  function setTheme(theme) {
+    document.body.className = theme;
+    localStorage.setItem("theme", theme);
+  }
+</script>
+</body>
+</html>

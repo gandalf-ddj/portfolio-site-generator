@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  <div class="container">
+    <select id="themeSelector" onchange="setTheme(this.value)">
+      <option value="">Default</option>
+      <option value="dark">Dark</option>
+      <option value="solarized">Solarized</option>
+    </select>
+    <h1>My Bio</h1>
+    <div class="content">
+      
+        <h1>Hey, I’m Daniel Jarvis 🚀</h1>
+<p>I'm a Python developer with a passion for building powerful, real-world tools that make workflows faster, data cleaner, and projects more organized. I specialize in crafting practical terminal apps, automation scripts, and custom site generators from scratch — all with clean design, sharp logic, and zero fluff.</p>
+<p>In just a few months, I’ve:
+- Built and deployed a <strong>multi-page portfolio site generator</strong> (you’re looking at it!)
+- Created a <strong>weather app CLI</strong> that fetches real-time forecasts
+- Engineered a <strong>web scraper</strong> that exports structured data to CSV
+- Developed tools that <strong>sort files</strong>, <strong>track expenses</strong>, and <strong>manage inventory</strong> — all via terminal</p>
+<p>Every project you see here was built to solve a problem. And every line of code I write is focused on simplicity, clarity, and long-term usefulness.</p>
+<p>🧰 I build it. I polish it. I ship it.<br />
+💡 Let’s build something that works.</p>
+<p><a href="https://github.com/gandalf-ddj">Check out my GitHub →</a></p>
+      
+    </div>
+  </div>
+<script>
+  const saved = localStorage.getItem("theme");
+  if (saved) document.body.classList.add(saved);
+
+  function setTheme(theme) {
+    document.body.className = theme;
+    localStorage.setItem("theme", theme);
+  }
+</script>
+</body>
+</html>
